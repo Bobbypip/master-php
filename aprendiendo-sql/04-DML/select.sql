@@ -33,4 +33,16 @@ SELECT SQRT(2) AS 'OPERATION' FROM usuarios;
 # TRUNCAR #
 SELECT TRUNCATE(SQRT(2),2) AS 'OPERATION' FROM usuarios;
 
+# ORDENAR # 
+/* Ordenar por id ascendente*/
+SELECT sueldo FROM vendedores ORDER BY id;
 
+/* Ordenar por id descendente*/
+SELECT sueldo FROM vendedores ORDER BY id DESC;
+
+/*Ordenar por id ascendente*/
+SELECT sueldo FROM vendedores ORDER BY id ASC;
+
+# PONER UN LIMITE AL NUMERO DE ELEMENTO MOSTRADOS #
+/* LIMIT 4 muiestra los primeros 4*/
+SELECT sueldo FROM vendedores ORDER BY id DESC LIMIT 4;

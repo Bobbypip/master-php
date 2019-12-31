@@ -28,6 +28,18 @@ if(condicion){
   
  
  */
+//Ejemplo 0
+$color1 = 'verde';
+$color2 = false;
+
+if($color1 && $color2){
+    echo 'EL COLOR SI';
+}
+else{
+    echo 'EL COLOR NO';
+}
+
+echo'<br>';
 
 //Ejemplo 1
 $color = 'verde';
